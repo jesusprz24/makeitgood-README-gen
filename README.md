@@ -1,1 +1,0 @@
-# makeitgood-README-gen

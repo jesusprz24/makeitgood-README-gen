@@ -4,10 +4,11 @@ function generateMarkdown(data) {
     return `
 
 # ${data.Title}
+# License:
+[![License: MIT](https://img.shields.io/badge/License${data.License}-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Table of Contents 
 * [Installation] (#installation)
 * [Usage] (#usage)
-* [License] (#license) 
 * [Contributing] (#contributing)
 * [Tests] (#tests)
 * [Questions] (#questions)
@@ -17,9 +18,6 @@ The following must install in order to run application
 
 # Usage
 In order to use the app, ${data.Usage}
-
-# License
-This project is licensed under ${data.License}
 
 # Contributing 
 Contributors: ${data.Contributing}
